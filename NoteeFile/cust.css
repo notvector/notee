@@ -1,0 +1,26 @@
+.card{
+	width: 60%;
+	margin: auto;
+	margin-top: 40px;
+}
+
+/**/
+.app-container{
+	width: 60%; /*here you can change the width of room screen*/
+	margin: auto;
+	background-color: #fff;
+	padding: 10px;
+	margin-top: 40px;
+}
+
+body{
+	background-image: url("./color.jpg"); /*here you can change background image*/
+	background-size: 2000px 1000px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .card{
+		width: 90%;
+	}
+ }
+
